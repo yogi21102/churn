@@ -65,32 +65,7 @@ Ensure your dataset is in `.csv` format with proper preprocessing steps applied 
 
 ---
 
-## Usage
-1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/your-username/churn-prediction-xgboost.git
-   cd churn-prediction-xgboost
-   ```
-
-2. **Prepare the Data:**
-   - Place your dataset in the `data/` folder.
-   - Update the paths in the code if necessary.
-
-3. **Run Preprocessing:**
-   ```bash
-   python src/preprocess.py
-   ```
-
-4. **Train the Model:**
-   ```bash
-   python src/model.py
-   ```
-
-5. **Evaluate the Model:**
-   Review metrics and plots generated in the `outputs/` folder.
-
----
 
 ## Model Performance
 Expected metrics for evaluation:
